@@ -13,7 +13,7 @@ class Part2 {
   }
 
   public static ArrayList<Integer> get_input() throws IOException {
-    File f = new File("input.txt");
+    File f = new File("Day1/input.txt");
     FileReader fr = new FileReader(f);
     BufferedReader br = new BufferedReader(fr);
     String line;

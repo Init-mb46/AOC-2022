@@ -5,7 +5,7 @@ import java.io.*;
 
 class Part1 {
   public static void main(String[] args) throws IOException {
-    File f = new File("input.txt");
+    File f = new File("Day3/input.txt");
     FileReader fr = new FileReader(f);
     BufferedReader br = new BufferedReader(fr);
     String line;

@@ -7,7 +7,7 @@ class Part2 {
   public static void main (String[] args) throws IOException {
 
     //Input
-    File f = new File("input.txt");
+    File f = new File("Day2/input.txt");
     FileReader fr = new FileReader(f);
     BufferedReader br = new BufferedReader(fr);
     String line;
